@@ -10,7 +10,17 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="./index.css" />
 		<!-- JS -->
-		<script src="./index.js"></script>
+		<script defer src="./index.js"></script>
 	</head>
-	<body></body>
+
+	<body>
+		<div id="container">
+			<h1>Dice Roller</h1>
+			<label for="numberOfDice">Number of Dice</label>
+			<input id="numberOfDice" type="number" value="1" min="1" />
+			<button id="rollButton">Roll</button>
+			<div id="diceResult"></div>
+			<div id="diceImages"></div>
+		</div>
+	</body>
 </html>
